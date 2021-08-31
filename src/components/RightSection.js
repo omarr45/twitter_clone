@@ -30,7 +30,25 @@ const RightSection = () => {
         <span>&copy; 2021 Twitter, Inc.</span>
       </div>
       <div className='checkMe'>
-        Check it out on <a href=''>GitHub</a>
+        <p>
+          Check it out on{' '}
+          <a
+            href='https://github.com/omarr45/twitter_clone'
+            target='_blank'
+            rel='noreferrer'>
+            GitHub
+          </a>
+        </p>
+        <p>
+          Many thanks to{' '}
+          <a
+            href='https://github.com/dapilab/react-nice-avatar'
+            target='_blank'
+            rel='noreferrer'>
+            Dapilab
+          </a>{' '}
+          for the amazing avatars
+        </p>
       </div>
     </div>
   );

@@ -78,5 +78,16 @@ hr {
 }
 
 .checkMe {
-  margin-top: 3rem;
+  padding: 1em;
+  color: var(--my-gray);
+  font-size: 1.4rem;
+}
+
+.checkMe a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.checkMe p {
+  margin-top: 2em;
 }
