@@ -30,7 +30,6 @@ const MainSection = () => {
       image:
         'https://res.cloudinary.com/omar45/image/upload/c_thumb,h_544,w_1000/v1630429696/there.jpg',
     },
-
     {
       id: 3,
       name: 'Yasmin Saber',
@@ -43,10 +42,23 @@ const MainSection = () => {
     },
     {
       id: 4,
+      name: 'Omar AbdulRahman',
+      user: 'Omar45',
+      verified: true,
+      date: '7h',
+      text: 'I also have a YouTube channel!\nYouTube.com/OmarAbdulRahman45',
+      image:
+        'https://res.cloudinary.com/omar45/image/upload/c_thumb,h_544,w_1000/v1630503631/youtube.png',
+      replies: 9,
+      retweets: 14,
+      likes: 69,
+    },
+    {
+      id: 5,
       name: 'Yousra Shafik',
       user: 'YousraSh',
       date: '1d',
-      text: 'I ❤❤❤❤❤ Dina Dash',
+      text: '“It is difficult to find happiness within oneself,\nbut it is impossible to find it anywhere else.”\n\n~Arthur Schopenhauer',
       replies: 12,
       retweets: 20,
       likes: 30,
