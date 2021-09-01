@@ -52,3 +52,41 @@ body {
   flex-basis: 48%;
   margin-left: 16rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .rightsection {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    font-size: 14px;
+  }
+  .App {
+    width: auto;
+    display: block;
+  }
+  .leftsection {
+    display: none;
+  }
+  .rightsection {
+    display: none;
+  }
+  .mainsection {
+    margin: 0 auto;
+    flex-basis: 0%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  :root {
+    font-size: 10px;
+  }
+}

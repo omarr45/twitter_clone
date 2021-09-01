@@ -28,6 +28,7 @@ const Tweet = ({
           width: '3rem',
           height: '3rem',
           marginRight: '1em',
+          flexShrink: '0',
         }}
         {...config}
       />

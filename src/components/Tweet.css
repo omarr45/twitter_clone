@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .tweet_content {
@@ -45,7 +46,7 @@
 }
 
 .tweet_image {
-  width: 100%;
+  max-width: 100%;
   margin-top: 1em;
   border-radius: 1rem;
   border: 1px solid var(--blue-gray);
@@ -56,7 +57,7 @@
 .tweet_footer {
   display: flex;
   font-size: 0.9rem;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 4rem;
   margin-top: 1em;
 }
@@ -67,6 +68,15 @@
   gap: 0.6em;
   padding: 0.6em;
   border-radius: 2rem;
+  width: 36px;
+}
+
+.icon_wrapper span {
+  padding-left: 0.2em;
+}
+
+.icon_wrapper:last-child {
+  margin-right: 4em;
 }
 
 .footer_icon {
@@ -103,4 +113,10 @@
 
 .icon_wrapper:nth-child(3):hover {
   background-color: #32253a;
+}
+
+@media screen and (max-width: 800px) {
+  .icon_wrapper:last-child {
+    margin-right: 0;
+  }
 }

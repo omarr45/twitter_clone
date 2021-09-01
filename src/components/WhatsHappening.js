@@ -18,7 +18,7 @@ const WhatsHappening = () => {
           width: '3rem',
           height: '3rem',
           cursor: 'pointer',
-          flexBasis: '10%',
+          flexShrink: '0',
         }}
         {...config}
       />
