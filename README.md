@@ -1,8 +1,6 @@
 # Twitter Clone using React Js
 
 ### You can check it [here](https://twitterclone45.web.app/)
-### Not responsive currently, please open from desktop!
-<br/>
 
 ## Screenshots
 ![screencapture-localhost-3000-2021-08-31-20_38_15](https://user-images.githubusercontent.com/58887202/131557855-a4b5603f-10a0-4d9b-bd85-0b52041d9f6e.png)
