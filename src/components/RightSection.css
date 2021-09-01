@@ -84,10 +84,14 @@ hr {
 }
 
 .checkMe a {
-  text-decoration: underline;
+  font-weight: bold;
   text-decoration-thickness: 1px;
 }
 
+.checkMe a:hover {
+  text-decoration: underline;
+}
+
 .checkMe p {
-  margin-top: 2em;
+  margin-top: 1em;
 }

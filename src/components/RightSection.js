@@ -31,7 +31,13 @@ const RightSection = () => {
       </div>
       <div className='checkMe'>
         <p>
-          Check it out on{' '}
+          Developed by{' '}
+          <a href='https://omar45.com' target='_blank' rel='noreferrer'>
+            Omar
+          </a>
+        </p>
+        <p>
+          Check it on{' '}
           <a
             href='https://github.com/omarr45/twitter_clone'
             target='_blank'
